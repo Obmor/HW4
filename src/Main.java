@@ -94,11 +94,11 @@ public class Main {
         int two = 2;
         int three = 3;
         if (one > two && one > three){
-            System.out.println("The bigest number is " + one);
+            System.out.println("The biggest number is " + one);
         } else if (two > three){
-            System.out.println("The bigest number is " + two);
+            System.out.println("The biggest number is " + two);
         } else {
-            System.out.println("The bigest number is " + three);
+            System.out.println("The biggest number is " + three);
         }
 
     }
