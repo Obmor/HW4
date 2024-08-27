@@ -21,7 +21,7 @@ public class Main {
         }
 
 
-        System.out.println("Exrcise 3");
+        System.out.println("Exercise 3");
         int speedLimit = 59;
         if (speedLimit <= 60) {
             System.out.println("Если скорость авто не превышает 60 км/ч, " +
