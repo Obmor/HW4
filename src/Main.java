@@ -90,7 +90,7 @@ public class Main {
 
 
         System.out.println("Exercise 7");
-        int one = 1;
+        int one = 11;
         int two = 2;
         int three = 3;
         if (one > two && one > three){
