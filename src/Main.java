@@ -7,8 +7,7 @@ public class Main {
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + " то он " +
                     "совершеннолетний.");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Если возраст человека " + age + " лет, то он " +
                     "не совершеннолетний.");
         }
@@ -19,8 +18,7 @@ public class Main {
         if (temperature <= 5) {
             System.out.println("Если на улице температура ниже " + temperature +
                     " градусов, то стоит одеть шапку.");
-        }
-        if (temperature > 5) {
+        } else {
             System.out.println("Если на улице выше " + temperature +
                     " градусов, то шапку можно не одевать.");
         }
@@ -31,8 +29,7 @@ public class Main {
         if (speed <= 60) {
             System.out.println("Если скорость авто " + speed +
                     " то можно спокойно продолжать поездку.");
-        }
-        if (speed > 60) {
+        } else {
             System.out.println("Если скорость авто " + speed +
                     " то придется заплатить штраф.");
         }
@@ -85,14 +82,13 @@ public class Main {
         }
 
 
-
         System.out.println("Exercise 7");
         int one = 1;
         int two = 2;
         int three = 3;
-        if (one > two && one > three){
+        if (one > two && one > three) {
             System.out.println("The biggest number is " + one + ".");
-        } else if (two > three){
+        } else if (two > three) {
             System.out.println("The biggest number is " + two + ".");
         } else {
             System.out.println("The biggest number is " + three + ".");
